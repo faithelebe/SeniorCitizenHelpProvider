@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="CSS/Layout.css" rel="stylesheet" type="text/css" >
+		<link href="CSS/Menu.css" rel="stylesheet" type="text/css" >
+
+
+
+
+
+
+		<title>Sign Up</title>
+
+	</head>
+	<BODY>
+
+		<DIV id="Holder">
+
+			<div id="Header">
+
+				<p>Senior Citizen Help Provider</p>
+
+
+			</div>
+
+			<DIV id="Navbar">
+				<nav>
+					<ul>
+						<li>
+							<a href="Login.html">Login</a>
+						</li>
+						<li>
+							<a href="contactUs.html">Contact us</a>
+						</li>
+						<li>
+							<a href="Home.html">Logout</a>
+						</li>
+
+
+					</ul>
+				</nav>
+
+			</DIV>
+			<DIV id="Content"></DIV>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div id="login_box_container"
+							style="background: url('https://plus.maths.org/issue45/features/kaplan/Penrose_tiling.gif'); width: 100%; padding: 5px;">
+
+
+
+
+
+				<div id="back_glob"  style="margin-left: auto; margin-right: auto;">
+
+					 <div id="back_header">
+						Registration
+					 </div>
+
+					 <br>
+
+							<div id="back_form">
+
+								<form action="sign_action.php" method="post">
+									<div class="form-group">
+  										<input type="radio" name="type" id="sp" value="serviceProvider">
+  										<label for="sp">Service Provider</label>
+  									</div>
+
+  									<select>
+								  <option value="code1">1234</option>
+								  <option value="code2">abcd</option>
+								  <option value="code2">9876</option>
+								  <option value="code3">zxyw</option>
+									</select>
+
+									<br/><br>
+
+
+									<input id="sn" type="radio" name="type" value="senior">
+									<label for="sn">Senior</label>
+								</br>
+
+
+									<input type ="text" name="user_Name" placeholder="userrname" />
+									<input type ="password" name="pass_Word" placeholder="password" />
+									<input type ="text" name="fullname" placeholder="Full name" />
+									<input type ="tel" name="mobile_number" placeholder="Mobile Phone Number" />
+									<input type ="text" name="address" placeholder="Address" />
+									<input type ="number" name="service" placeholder="Service code" />
+
+
+									<input type ="submit" name="submit" value="Create" />
+								</form>
+
+							</div>
+
+				</div>
+				</div>
+			</div>
+		</div>
+
+			<DIV id="Footer"> 2018 &copy; Faith</DIV>
+
+		</DIV>
+
+	</BODY>
+
+</html>
