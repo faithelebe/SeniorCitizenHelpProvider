@@ -9,3 +9,5 @@
   $birthDay = $_POST['birthDay'];
    $serviceCode = $_POST['serviceCode'];
    $type = $_POST['type'];
+   if ($type == "senior"){
+      //   then create a record in the senior table
