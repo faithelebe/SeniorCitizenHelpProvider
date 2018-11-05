@@ -20,3 +20,4 @@
      // create a record for Service provider
 
       $sql = "INSERT INTO serviceprovider (userName, passWord, fullName, phoneNumber, gender, 
+      address, birthDay, serviceCode) VALUES ('{$userName}', '{$passWord}', '{$fullName}', '{$
