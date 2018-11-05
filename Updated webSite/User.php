@@ -13,3 +13,8 @@
       //   then create a record in the senior table
    	$sql = "INSERT INTO senior (userName, passWord, fullName, phoneNumber, gender, address, birthDay) 
    	VALUES ('{$userName}', '{$passWord}', '{$fullName}', '{$phoneNumber}', '{$gender}', '{$address}','
+   	{$birthDay}')";
+
+ 
+  }else{
+     
