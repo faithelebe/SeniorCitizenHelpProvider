@@ -8,3 +8,4 @@
   $address = $_POST['address'];
   $birthDay = $_POST['birthDay'];
    $serviceCode = $_POST['serviceCode'];
+   $type = $_POST['type'];
