@@ -6,3 +6,5 @@
   $phoneNumber = $_POST['phoneNumber'];
   $gender = $_POST['gender'];
   $address = $_POST['address'];
+  $birthDay = $_POST['birthDay'];
+   
