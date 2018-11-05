@@ -17,4 +17,6 @@
 
  
   }else{
-     
+     // create a record for Service provider
+
+      $sql = "INSERT INTO serviceprovider (userName, passWord, fullName, phoneNumber, gender, 
