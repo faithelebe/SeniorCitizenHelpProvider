@@ -5,3 +5,4 @@
   $fullName = $_POST['fullName'];
   $phoneNumber = $_POST['phoneNumber'];
   $gender = $_POST['gender'];
+  $address = $_POST['address'];
