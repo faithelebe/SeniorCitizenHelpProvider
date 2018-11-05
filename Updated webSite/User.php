@@ -11,3 +11,4 @@
    $type = $_POST['type'];
    if ($type == "senior"){
       //   then create a record in the senior table
+   	$sql = "INSERT INTO senior (userName, passWord, fullName, phoneNumber, gender, address, birthDay) 
