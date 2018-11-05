@@ -24,3 +24,4 @@
       phoneNumber}', '{$gender}', '{$address}','{$birthDay}', '{$serviceCode}')";
       
  }
+ if ($conn->query($sql) === TRUE) {
