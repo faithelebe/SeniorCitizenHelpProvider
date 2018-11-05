@@ -25,3 +25,4 @@
       
  }
  if ($conn->query($sql) === TRUE) {
+ 	header('Location: http://localhost/bit216/newLogin.html');
