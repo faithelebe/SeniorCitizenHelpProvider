@@ -21,3 +21,6 @@
 
       $sql = "INSERT INTO serviceprovider (userName, passWord, fullName, phoneNumber, gender, 
       address, birthDay, serviceCode) VALUES ('{$userName}', '{$passWord}', '{$fullName}', '{$
+      phoneNumber}', '{$gender}', '{$address}','{$birthDay}', '{$serviceCode}')";
+      
+ }
