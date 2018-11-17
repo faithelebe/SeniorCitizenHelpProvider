@@ -1,2 +1,3 @@
 <?php
 require "./database.php";  //connect to the database
+$q = "SELECT * FROM servicetable;";
