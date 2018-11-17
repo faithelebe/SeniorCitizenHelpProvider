@@ -26,3 +26,4 @@
  }
  if ($conn->query($sql) === TRUE) {
  	 echo "<script>
+   alert('Sign up successfull');
