@@ -73,10 +73,16 @@ $usernameSenior = $_SESSION['user_name'];
          margin: 8px 0;
          border: none;
          cursor: pointer;
-         
+
          }
          /* Add a hover effect for buttons */
          button:hover {
          opacity: 0.8;
          }
          /* Extra style for the cancel button (red) */
+         .cancelbtn {
+         width: auto;
+         padding: 10px 18px;
+         background-color: #f44336;
+         }
+         /* Center the avatar image inside this container */
