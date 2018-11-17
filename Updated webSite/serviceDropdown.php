@@ -5,3 +5,4 @@ $result = $conn->query($q);//execute and store the result of sql query in variab
 if($result){  //$result should be an object if successful
 	$rows  = $result->fetch_all(MYSQLI_ASSOC);
 	print('<select id = "codes" name="serviceCode">');
+	foreach($rows as $r){  //$r is a single row
