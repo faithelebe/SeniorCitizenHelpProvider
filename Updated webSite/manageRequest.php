@@ -27,3 +27,8 @@ $usernameSenior = $_SESSION['user_name'];
       <script src="js/bootstrap.min.js"></script>
       <style>
          body, html {
+         	height: 100%;
+         font-family: "Inconsolata", sans-serif;
+         font-size: 100%;
+         font-color: white;
+         }
