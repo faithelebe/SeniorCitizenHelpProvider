@@ -10,3 +10,4 @@ $usernameSenior = $_SESSION['user_name'];
 	sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="
 	anonymous">
 	 </head>
+	 <title>Manage Request</title>
