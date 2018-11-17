@@ -175,3 +175,9 @@ $usernameSenior = $_SESSION['user_name'];
               if($r['status'] == "completed"){
               print(" <input id=\"com\" type=\"radio\" name=\"com\" checked=\"checked\" value=\"completed\">");
               print("<label for=\"com\">completed</label>");
+              print("<input id=\"can\" type=\"radio\" name=\"com\" value=\"cancelled\">");
+              print("<label for=\"com\">cancelled</label>");
+            }elseif($r['status'] == "cancelled") {
+              print(" <input id=\"com\" type=\"radio\" name=\"com\" checked=\"checked\" value=\"completed\">");
+              print("<label for=\"com\">completed</label>");
+              print("<input id=\"can\" type=\"radio\" name=\"com\" checked=\"checked\" value=\"cancelled\">");
