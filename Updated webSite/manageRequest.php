@@ -142,3 +142,9 @@ $usernameSenior = $_SESSION['user_name'];
                   <a href="../bit216PHP/logout.php" class="w3-button w3-block w3-black">LOG OUT</a>
                </div>
             </div>
+             </div>
+         <br>
+         <br>
+         <br>
+                     <div>
+                        <!--Notification item-->
