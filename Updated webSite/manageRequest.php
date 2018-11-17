@@ -12,3 +12,4 @@ $usernameSenior = $_SESSION['user_name'];
 	 </head>
 	 <title>Manage Request</title>
 	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
