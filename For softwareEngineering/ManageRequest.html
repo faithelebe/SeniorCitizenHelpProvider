@@ -3,7 +3,7 @@
    <head>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    </head>
-   <title>Login</title>
+   <title>Manage Request</title>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -23,7 +23,7 @@
          height: 100%;
          font-family: "Inconsolata", sans-serif;
          font-size: 100%;
-         color: ;
+         font-color: white;  
          }
          .bgimg {
          background-position: center;
@@ -31,6 +31,7 @@
          background-image: url("https://www.luxuryww.com/wp-content/uploads/2018/04/181746-saiba-como-escolher-a-melhor-viagem-para-criancas-e-idosos.jpg");
          min-height: 100%;
          opacity:0.6;
+         }
          }
          .menu {
          display: none;
@@ -51,13 +52,13 @@
          }
          /* Set a style for all buttons */
          button {
-         background-color: #4CAF50;
+         background-color: black;
          color: white;
          padding: 14px 20px;
-         margin-left: : 120px;
+         margin: 8px 0;
          border: none;
          cursor: pointer;
-         width: 50%;
+         width: 50%;;
          }
          /* Add a hover effect for buttons */
          button:hover {
@@ -81,12 +82,18 @@
          }
          /* Add padding to containers */
          .container {
-         margin-top: auto;
-         margin-bottom: auto; margin-left: auto; margin-right: auto;
+         margin-top: 13px;
+         margin-bottom: 13px; margin-left: 13px; margin-right: px;
          text-align: center;
-         background-color: white;
+         background-color: #5A8A87;
          width: 60%;
-         font-size: 120%;
+         font-size: 100%;
+         color: white;
+         font-style: bold;
+         }
+         .pendingServices{
+         margin:13px; 
+         padding: 5px;
          }
          /* The "Forgot password" text */
          span.psw {
@@ -104,6 +111,8 @@
          }
          }
       </style>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      </head>
       <body>
          <!-- Links (sit on top) -->
          <div class="w3-top">
@@ -112,37 +121,42 @@
                   <a href="newHome1.html" class="w3-button w3-block w3-black">HOME</a>
                </div>
                <div class="w3-col s3">
-                  <a href="newContactUs.html" class="w3-button w3-block w3-black">CONTACT US</a>
+                  <a href="ReviewUser.html" class="w3-button w3-block w3-black">Review User</a>
                </div>
                <div class="w3-col s3">
-                  <a href="newLogin.html" class="w3-button w3-block w3-black">REQUEST SERVICE</a>
+                  <a href="newRequestService.html" class="w3-button w3-block w3-black">Request Service</a>
                </div>
                <div class="w3-col s3">
-                  <a href="newLogin.html" class="w3-button w3-block w3-black">SERVICES</a>
+                  <a href="newHome1.html" class="w3-button w3-block w3-black">Log Out</a>
                </div>
             </div>
             <div class="container">
-               <form action="newRequestService.html" method="post" >
-                  <div class="imgcontainer">
-                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh2_x7pRRsNKcZvo_bt4Uyl5mcMpyN0P0c1Abkiltgh63D1Hc4" alt="Avatar" class="avatar">
-                  </div>
-                  <div class="container">
-                     <label for="uname"><b>Username</b></label>
-                     <input type="text" placeholder="Enter Username" name="uname" required><br>
-                     <label for="psw"><b>Password</b></label>
-                     <input type="password" placeholder="Enter Password" name="psw" required><br>
-                     <label>
-                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                        <br><br>
-                        <div style="font-size: 80%; position: relative; top:-10px"><a href="https://mail.google.com/">Forgot password?</a></div>
-                     </label>
-                     <br>
-                     <button  type="submit">Login</button>
-                     <div style=" font-size:85%" >Don't have an account?
-                        <a href="newSignUp.html">Sign Up Here</a>
-                     </div>
-                  </div>
+               <!--Notification item-->
+               <div class = "pendingServices">
+                  Service Code: 123<br>
+                  Service Description: HealthCare<br>
+                  Request ID: 124<br>
+                  Required Date: 02/02/2019<br>
+                  Status: Pending<br>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="background-color: #ACB2B1; font-size: 120%; color:black; ">
+                  View Details
+                  </button>
+               </div>
+               <!--Notification item-->
+               <div class = "pendingServices">
+                  Service Code: 125<br>
+                  Service Description: transportation<br>
+                  Request ID: 126<br>
+                  Required Date: 06/12/2018<br>
+                  Status: Completed<br>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style="background-color: #ACB2B1; font-size: 120%; color: black;  ">
+                  View Details
+                  </button>
+               </div>
             </div>
+         </div>
          </div>
          </form>
          </div>
@@ -152,7 +166,37 @@
          </header>
          <!-- Add a background color and large text to the whole page -->
          <div class="w3-sand w3-grayscale w3-large">
-            <DIV id="Footer"> 2018 &copy; FaithElebe</DIV>
+         </div>
+         <!-- Modal -->
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="exampleModalLabel">Manage Service</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <form action="ReviewUser.html" method="post" >
+                     <div class="modal-body">
+                        RequiredDate <input type ="date" name="date" placeholder="date" /><br>
+                        Notes <input type ="text" name="notes" placeholder="note" style="font-size:12px; padding: 5px; border-radius: 3px;border: 1px solid #ddd";/><br>
+                        Status <br> <input id="com" type="radio" name="com" value="completed">
+                        <label for="com">completed</label>
+                        </br>
+                        <input id="can" type="radio" name="com" value="cancelled">
+                        <label for="can">cancelled</label>
+                        </br>
+                     </div>
+                     <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Review User</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <DIV id="Footer"> 2018 &copy; JasonQuah</DIV>
          </div>
          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
