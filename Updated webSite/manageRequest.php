@@ -188,4 +188,9 @@ $usernameSenior = $_SESSION['user_name'];
               print("<input id=\"can\" type=\"radio\" name=\"com\" value=\"cancelled\">");
               print("<label for=\"com\">cancelled</label>");
             }
+            print(" <br>Notes: <textarea name='noteUpdate'> {$r['Note']}</textarea> ");
+              print("<br><label for=\"rating\">Rating: </label>");
+              print("<select id=\"rating\" name=\"rating\"> ");
+              if(  $r['rating'] == "1"){
+                $rat = "Bad";
 
