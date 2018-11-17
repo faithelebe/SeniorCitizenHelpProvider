@@ -5,3 +5,4 @@ echo 'alert("Thank you!")';
  echo '</script>';
  echo '<script> window.location.assign("../bit216/newHome1.html"); </script>';
  session_destroy();
+ ?>
