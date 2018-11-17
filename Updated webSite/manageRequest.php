@@ -18,3 +18,4 @@ $usernameSenior = $_SESSION['user_name'];
 	 <!--Bootstrap-->
 	 <link href="css/bootstrap.min.css" rel="stylesheet">
 	  <link href="SignUp.css" rel="stylesheet">
+	   <script src="show1.js"></script>
