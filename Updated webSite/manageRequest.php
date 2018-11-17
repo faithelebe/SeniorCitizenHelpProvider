@@ -46,3 +46,6 @@ $usernameSenior = $_SESSION['user_name'];
          /* Bordered form */
          .requestDiv{
            height:380px;
+           padding: 20px;
+           padding-left:6%;
+           border: 1px solid;
