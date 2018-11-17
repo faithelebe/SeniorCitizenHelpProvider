@@ -66,3 +66,10 @@ $usernameSenior = $_SESSION['user_name'];
          align-content: center;
          }
          /* Set a style for all buttons */
+         button {
+         background-color: black;
+         color: white;
+         padding: 8px 12px;
+         margin: 8px 0;
+         border: none;
+         cursor: pointer;
