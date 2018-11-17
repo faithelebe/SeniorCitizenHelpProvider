@@ -95,3 +95,8 @@ $usernameSenior = $_SESSION['user_name'];
          width: 10%;
          border-radius: 20%;
          }
+         /* Add padding to containers */
+         .container {
+         margin-top: 13px;
+         margin-bottom: 13px; margin-left: 13px; margin-right: px;
+         text-align: center;
