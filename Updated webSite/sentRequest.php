@@ -9,3 +9,4 @@ $code = $_POST['serviceCode'];
   $conn->query($sql);
   header('Location: http://localhost/bit216/newSubmitRequest.php');
   $conn->close();
+  ?>
