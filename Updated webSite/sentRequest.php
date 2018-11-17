@@ -7,3 +7,4 @@ $code = $_POST['serviceCode'];
   $sql = "INSERT INTO sentrequest (Code, Date, Note, status) VALUES ('{$code}', '{$date}', '{$note}', 
   '{$status}')";
   $conn->query($sql);
+  header('Location: http://localhost/bit216/newSubmitRequest.php');
