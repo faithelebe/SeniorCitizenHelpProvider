@@ -169,3 +169,9 @@ $usernameSenior = $_SESSION['user_name'];
               print("Date: {$r['Date']}<br>");
                 print(" Status: {$r['status']}<br>");
                 print(" Service Type: {$r['servicename']}<br>");
+
+                print("<form id=\"submit-form\" action='/bit216PHP/updateRequestRating.php' method='post' > ");
+              print(" <input type=\"hidden\" name=\"secretID\" id=\"secretID\" value=\" {$r['id']}\" />");
+              if($r['status'] == "completed"){
+              print(" <input id=\"com\" type=\"radio\" name=\"com\" checked=\"checked\" value=\"completed\">");
+              print("<label for=\"com\">completed</label>");
