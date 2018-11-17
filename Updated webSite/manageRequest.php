@@ -11,3 +11,4 @@ $usernameSenior = $_SESSION['user_name'];
 	anonymous">
 	 </head>
 	 <title>Manage Request</title>
+	 <meta charset="UTF-8">
