@@ -6,3 +6,4 @@ $code = $_POST['serviceCode'];
   $status = "pending";
   $sql = "INSERT INTO sentrequest (Code, Date, Note, status) VALUES ('{$code}', '{$date}', '{$note}', 
   '{$status}')";
+  $conn->query($sql);
