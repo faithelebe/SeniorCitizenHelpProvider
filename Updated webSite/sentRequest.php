@@ -1,1 +1,2 @@
 <?php
+include "./database.php";
