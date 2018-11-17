@@ -4,3 +4,4 @@ $usernameSenior = $_SESSION['user_name'];
 ?>
 <!DOCTYPE html>
 <html>
+<head>
