@@ -62,3 +62,7 @@ $usernameSenior = $_SESSION['user_name'];
          margin: 8px 0;
          display: inline-block;
          border: 1px solid #ccc;
+         box-sizing: border-box;
+         align-content: center;
+         }
+         /* Set a style for all buttons */
