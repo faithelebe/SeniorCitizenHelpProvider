@@ -9,3 +9,5 @@ if($result){  //$result should be an object if successful
 		print("<option value=\"{$r['servicecode']}\">{$r['servicename']}</option>");
 		}
   print('</select>');
+  }
+$conn->close()
