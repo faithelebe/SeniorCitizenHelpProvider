@@ -148,3 +148,12 @@ $usernameSenior = $_SESSION['user_name'];
          <br>
                      <div>
                         <!--Notification item-->
+
+                        
+         <?php
+         require "./database.php";  //connect to the database
+
+
+
+         $q = "SELECT * FROM `sentrequest`as sr left join `servicetable` as st on sr.Code = st.servicecode  WHERE sr.status != 'pending' && userName = \"$usernameSenior\";"; //retrieve all records from  servicetable
+         $result = $conn->query($q);  //execute and store the result of sql query in variable $result
