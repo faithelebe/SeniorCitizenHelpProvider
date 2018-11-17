@@ -17,3 +17,4 @@ $usernameSenior = $_SESSION['user_name'];
 	 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 	 <!--Bootstrap-->
 	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	  <link href="SignUp.css" rel="stylesheet">
