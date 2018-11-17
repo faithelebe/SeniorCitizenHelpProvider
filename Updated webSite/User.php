@@ -31,3 +31,4 @@
    </script>";
 
    } else {
+    if(substr($conn->error, 0,15) == "Duplicate entry"){
