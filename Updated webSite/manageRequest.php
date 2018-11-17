@@ -32,5 +32,5 @@ $usernameSenior = $_SESSION['user_name'];
          font-size: 100%;
          font-color: white;
          }
-         background-image: url("https://www.luxuryww.com/wp-content/uploads/2018/04/181746-saiba-como-escolher-a-melhor-viagem-para-criancas-e-idosos.jpg");
-         
+         .bgimg {
+         background-position: center;
