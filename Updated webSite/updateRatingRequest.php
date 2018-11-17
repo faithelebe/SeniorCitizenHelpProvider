@@ -7,4 +7,4 @@ $rating =$_POST['rating'];
 $ccomment =$_POST['ratingComment'];
 $sql = "UPDATE sentrequest SET Note = '{$note}' , status = '{$updatedStatus}', rating = '{$rating}'
 , ratingComment = '{$ccomment}' WHERE id = '{$id}'";
-
+$conn->query($sql);
