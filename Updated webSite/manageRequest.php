@@ -115,3 +115,9 @@ $usernameSenior = $_SESSION['user_name'];
          float: right;
          padding-top: 16px;
          }
+         /* Change styles for span and cancel button on extra small screens */
+         @media screen and (max-width: 50px) {
+         span.psw {
+         display: block;
+         float: none;
+         }
