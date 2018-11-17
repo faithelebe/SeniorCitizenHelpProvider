@@ -149,7 +149,7 @@ $usernameSenior = $_SESSION['user_name'];
                      <div>
                         <!--Notification item-->
 
-                        
+
          <?php
          require "./database.php";  //connect to the database
 
@@ -157,3 +157,15 @@ $usernameSenior = $_SESSION['user_name'];
 
          $q = "SELECT * FROM `sentrequest`as sr left join `servicetable` as st on sr.Code = st.servicecode  WHERE sr.status != 'pending' && userName = \"$usernameSenior\";"; //retrieve all records from  servicetable
          $result = $conn->query($q);  //execute and store the result of sql query in variable $result
+
+         if($result){  //$result should be an object if successful
+         $rows  = $result->fetch_all(MYSQLI_ASSOC);
+
+
+           foreach($rows as $r){  //$r is a single row
+              print(" <div class=\"requestDiv\" >");
+              print("Service code: {$r['Code']}<br>");
+              print("Request ID: {$r['id']}<br>");
+              print("Date: {$r['Date']}<br>");
+                print(" Status: {$r['status']}<br>");
+                print(" Service Type: {$r['servicename']}<br>");
