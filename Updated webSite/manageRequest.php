@@ -221,4 +221,11 @@ $usernameSenior = $_SESSION['user_name'];
 
            }
 
+           
+         }
+         $conn->close()
+         ?>
+     </div>
+         <div id="Footer"> 2018 &copy; FaithElebe</DIV>
+
 
