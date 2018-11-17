@@ -5,3 +5,4 @@ $code = $_POST['serviceCode'];
   $note = $_POST['note'];
   $status = "pending";
   $sql = "INSERT INTO sentrequest (Code, Date, Note, status) VALUES ('{$code}', '{$date}', '{$note}', 
+  '{$status}')";
