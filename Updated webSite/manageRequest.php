@@ -127,3 +127,9 @@ $usernameSenior = $_SESSION['user_name'];
          }
       </style>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+       </head>
+      <body>
+         <!-- Links (sit on top) -->
+         <div class="w3-top">
+            <div class="w3-row w3-padding w3-black">
+               <div class="w3-col s3">
