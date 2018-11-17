@@ -86,3 +86,12 @@ $usernameSenior = $_SESSION['user_name'];
          background-color: #f44336;
          }
          /* Center the avatar image inside this container */
+         .imgcontainer {
+         text-align: center;
+         margin: 24px 0 12px 0;
+         }
+         /* Avatar image */
+         img.avatar {
+         width: 10%;
+         border-radius: 20%;
+         }
