@@ -198,4 +198,9 @@ $usernameSenior = $_SESSION['user_name'];
                 $rat = "Not good";
               }elseif(  $r['rating'] == "3"){
                 $rat = "Moderate";
+                }elseif(  $r['rating'] == "4"){
+                $rat = "Good";
+              }elseif(  $r['rating'] == "5"){
+                $rat = "Awesome";
+              };
 
