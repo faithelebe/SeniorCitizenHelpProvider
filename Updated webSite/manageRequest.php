@@ -49,3 +49,6 @@ $usernameSenior = $_SESSION['user_name'];
            padding: 20px;
            padding-left:6%;
            border: 1px solid;
+           margin: 0 auto;
+           width: 30%;
+           background: #4e54c8;  /* fallback for old browsers */
