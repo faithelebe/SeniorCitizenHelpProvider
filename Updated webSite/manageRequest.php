@@ -58,3 +58,5 @@ $usernameSenior = $_SESSION['user_name'];
          /* Full-width inputs */
          input[type=text], input[type=password] {
          width: 50%;
+         padding: 12px 20px;
+         margin: 8px 0;
