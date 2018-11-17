@@ -133,3 +133,8 @@ $usernameSenior = $_SESSION['user_name'];
          <div class="w3-top">
             <div class="w3-row w3-padding w3-black">
                <div class="w3-col s3">
+               	<a href="seniorHome.php" class="w3-button w3-block w3-black">HOME</a>
+               </div>
+               <div class="w3-col s3">
+                  <a href="newRequestService.php" class="w3-button w3-block w3-black">REQUEST SERVICE</a>
+               </div>
