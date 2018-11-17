@@ -100,3 +100,9 @@ $usernameSenior = $_SESSION['user_name'];
          margin-top: 13px;
          margin-bottom: 13px; margin-left: 13px; margin-right: px;
          text-align: center;
+         background-color: #5A8A87;
+         width: 60%;
+         font-size: 200%;
+         color: white;
+
+         }
