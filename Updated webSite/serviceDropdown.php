@@ -13,3 +13,4 @@ if($result){  //$result should be an object if successful
 $conn->close()
 
 /*<select id = "codes" name="serviceCode">
+<option value="123">Healthcare code123</option>
