@@ -138,3 +138,7 @@ $usernameSenior = $_SESSION['user_name'];
                <div class="w3-col s3">
                   <a href="newRequestService.php" class="w3-button w3-block w3-black">REQUEST SERVICE</a>
                </div>
+               <div class="w3-col s3">
+                  <a href="../bit216PHP/logout.php" class="w3-button w3-block w3-black">LOG OUT</a>
+               </div>
+            </div>
