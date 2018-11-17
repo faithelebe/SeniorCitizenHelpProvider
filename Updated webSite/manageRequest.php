@@ -203,4 +203,22 @@ $usernameSenior = $_SESSION['user_name'];
               }elseif(  $r['rating'] == "5"){
                 $rat = "Awesome";
               };
+              print("<option selected>{$r['rating']} ($rat)</option>");
+              print("<option value=\"1\">1 (Bad)</option>");
+              print("<option value=\"2\">2 (Not good)</option>");
+              print("<option value=\"3\">3 (Moderate)</option>");
+              print("<option value=\"4\">4 (Good)</option>");
+              print("<option value=\"5\">5 (Awesome)</option>");
+              print("</select>");
+              print(" <br>Comment: <textarea name='ratingComment'>{$r['ratingComment']}</textarea> ");
+              print("<br> <button type=\"submit\">Update</button>");
+
+              print("</form>");
+              print("</div>");
+
+
+             print("<br>");
+
+           }
+
 
