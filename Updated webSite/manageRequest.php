@@ -22,3 +22,4 @@ $usernameSenior = $_SESSION['user_name'];
 	    <script src="show2.js"></script>
 	    <body>
       <!--Include JQuery: necessary for Bootstrap plugins-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
