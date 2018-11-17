@@ -106,3 +106,12 @@ $usernameSenior = $_SESSION['user_name'];
          color: white;
 
          }
+         .pendingServices{
+         margin:13px;
+         padding: 5px;
+         }
+         /* The "Forgot password" text */
+         span.psw {
+         float: right;
+         padding-top: 16px;
+         }
