@@ -27,3 +27,4 @@
  if ($conn->query($sql) === TRUE) {
  	 echo "<script>
    alert('Sign up successfull');
+   window.location.href='http://localhost/bit216/newLogin.php';
