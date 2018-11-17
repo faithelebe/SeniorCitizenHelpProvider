@@ -33,3 +33,4 @@
    } else {
     if(substr($conn->error, 0,15) == "Duplicate entry"){
       echo "<script>
+      alert('User name already exists');
