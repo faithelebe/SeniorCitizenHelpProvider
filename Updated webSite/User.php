@@ -36,3 +36,5 @@
       alert('User name already exists');
       window.location.href='http://localhost/bit216/newSignUp.php';
        </script>";
+       }
+  else{
