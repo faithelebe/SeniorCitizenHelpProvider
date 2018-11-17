@@ -11,3 +11,5 @@ if($result){  //$result should be an object if successful
   print('</select>');
   }
 $conn->close()
+
+/*<select id = "codes" name="serviceCode">
