@@ -6,3 +6,6 @@ if($result){  //$result should be an object if successful
 	$rows  = $result->fetch_all(MYSQLI_ASSOC);
 	print('<select id = "codes" name="serviceCode">');
 	foreach($rows as $r){  //$r is a single row
+		print("<option value=\"{$r['servicecode']}\">{$r['servicename']}</option>");
+		}
+  print('</select>');
